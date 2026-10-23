@@ -18,3 +18,9 @@
 - Run single tests with `go test -run '^TestName$' ./modulepath/` for Go, `pnpm exec vitest <path-filter>` for TS and `GITEA_TEST_E2E_FLAGS='<filepath>' make test-e2e` for e2e
 - Write the fewest, fastest tests covering the behavior, extending an existing one where possible. Prefer unit tests where logic is testable in isolation
 - Aim for sub-2s per integration test and sub-4s per e2e test. Wait on a deterministic condition rather than `sleep`, and prefer semantic locators in e2e tests
+
+<!-- PSEUDOCODE-SYSTEMS-THINKING v1 -->
+## Pseudocode and systems thinking
+
+Before material research or implementation work, read `RESEARCH_METHOD.md` and the nearest project instructions. Define the system boundary and write/update numbered pseudocode before changing the relevant workflow. Map material steps to actual implementation, independent checks and output evidence. Use `research-method/contract.template.json` without treating a completed template as verified execution. For a trivial edit, update only the affected step or note why the algorithm is unchanged. Preserve project-specific permissions, pauses, scientific results, attribution and release rules. Apply this method to all subprojects, keeping each project's own sources, algorithm and evidence record separate.
+<!-- END PSEUDOCODE-SYSTEMS-THINKING -->
